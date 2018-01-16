@@ -1,0 +1,7 @@
+C:\Users\Lenovo\Desktop\PP2\Myfirstwork\Class student\bin\Debug\Class student.exe.config
+C:\Users\Lenovo\Desktop\PP2\Myfirstwork\Class student\bin\Debug\Class student.exe
+C:\Users\Lenovo\Desktop\PP2\Myfirstwork\Class student\bin\Debug\Class student.pdb
+C:\Users\Lenovo\Desktop\PP2\Myfirstwork\Class student\obj\Debug\Class student.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\PP2\Myfirstwork\Class student\obj\Debug\Class student.exe
+C:\Users\Lenovo\Desktop\PP2\Myfirstwork\Class student\obj\Debug\Class student.pdb
+C:\Users\Lenovo\Desktop\PP2\Myfirstwork\Class student\obj\Debug\Class student.csprojResolveAssemblyReference.cache

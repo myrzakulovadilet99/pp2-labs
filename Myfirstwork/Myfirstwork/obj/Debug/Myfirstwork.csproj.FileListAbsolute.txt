@@ -1,0 +1,7 @@
+C:\Users\Lenovo\Desktop\PP2\Myfirstwork\Myfirstwork\bin\Debug\Myfirstwork.exe.config
+C:\Users\Lenovo\Desktop\PP2\Myfirstwork\Myfirstwork\bin\Debug\Myfirstwork.exe
+C:\Users\Lenovo\Desktop\PP2\Myfirstwork\Myfirstwork\bin\Debug\Myfirstwork.pdb
+C:\Users\Lenovo\Desktop\PP2\Myfirstwork\Myfirstwork\obj\Debug\Myfirstwork.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\PP2\Myfirstwork\Myfirstwork\obj\Debug\Myfirstwork.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\PP2\Myfirstwork\Myfirstwork\obj\Debug\Myfirstwork.exe
+C:\Users\Lenovo\Desktop\PP2\Myfirstwork\Myfirstwork\obj\Debug\Myfirstwork.pdb
