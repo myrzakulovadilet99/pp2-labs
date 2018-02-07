@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AF406C84-B9D3-4C37-8F0C-D7571E345C32}</ProjectGuid>
+    <ProjectGuid>{420853AB-1910-4DD1-8534-5FF608D99CB5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lab_4__Complex</RootNamespace>
-    <AssemblyName>Lab 4- Complex</AssemblyName>
+    <RootNamespace>maxmin</RootNamespace>
+    <AssemblyName>maxmin</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

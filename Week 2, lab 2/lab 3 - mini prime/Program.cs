@@ -8,36 +8,38 @@ namespace lab_3___mini_prime
 {
     class Program
     {
-        public static bool f(int a)
+        static bool isprime(string n)
         {
-            int cnt = 0;
+            int a = int.Parse(n);
+            if (a == 1) return false;
             for (int i = 2; i <= Math.Sqrt(a); i++)
             {
-                if (a % i == 0)
-                    cnt++;
-            }
-            if (cnt == 0)
-                return true;
-            return false;
-        }
+                if (a % i == 0) return false;
 
+            }
+            return true;
+        }
         static void Main(string[] args)
         {
-            string text = File.ReadAllText(@"C:\Users\Lenovo\Desktop\PP2\Week 2, lab 2\lab 3 - mini prime\input.txt");
-            string[] arr = text.Split();
-            int min = int.Parse(arr[0]);
-            foreach (string s in arr)
+            string line = File.ReadAllText(@"C:\Users\Lenovo\Desktop\PP2\Week 2, lab 2\lab 3 - mini prime\input.txt");
+            string[] a = line.Split(' ');
+
+            string min = a[0];
+            for (int i = 0; i < a.Length; i++)
             {
-                int m = int.Parse(s);
-                if (f(m))
+                if (isprime(a[i]))
                 {
-                    min = Math.Min(min, m);
+                    if (int.Parse(a[i]) < int.Parse(min))
+                    {
+                        min = a[i];
+                    }
                 }
             }
-            StreamWriter SW = new StreamWriter(@"C:\Users\Lenovo\Desktop\PP2\Week 2, lab 2\lab 3 - mini prime\output.txt");
-            SW.WriteLine(min);
-            SW.Close();
+            if (isprime(min))
+            {
+                File.WriteAllText(@"C:\Users\Lenovo\Desktop\PP2\Week 2, lab 2\lab 3 - mini prime\output.txt", min);
 
+            }
         }
     }
 }

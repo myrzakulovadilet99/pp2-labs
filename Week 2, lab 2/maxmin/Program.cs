@@ -5,20 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-
-namespace Week_2__lab_2
+namespace maxmin
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string text = File.ReadAllText(@"C:\Users\Lenovo\Desktop\PP2\Week 2, lab 2\Week 2, lab 2\lab2.txt");
-            string[] arr = text.Split();
-            int max = int.Parse(arr[0]);
-            int min = int.Parse(arr[0]);
-            foreach(string a in args)
+            string line = File.ReadAllText(@"C:\Users\Lenovo\Desktop\PP2\Week 2, lab 2\maxmin\minmax.txt");
+            string[] a = line.Split();
+            int max = int.Parse(a[0]);
+            int min = int.Parse(a[0]);
+            foreach (string k in args)
             {
-                int s = int.Parse(a);
+                int s = int.Parse(k);
                 max = Math.Max(max, s);
                 min = Math.Min(min, s);
             }
@@ -29,3 +28,4 @@ namespace Week_2__lab_2
 
     }
 }
+
